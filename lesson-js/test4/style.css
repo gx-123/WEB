@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding-top: 50px;
+    font-size: 15px;
+}
+div{
+    color: blue;
+    text-align: center;
+}
+.faster{
+    display: inline-block;
+    background-color: coral;
+    position: relative;
+    padding: 10px 20px;
+}
+.son{
+    margin-top: 8px;
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    background-color:whitesmoke;
+    padding: 5px;
+}
+.son li{
+    padding: 5px;
+}
+.son li:hover{
+    background-color: whitesmoke;
+    color: blueviolet;
+}
+
+div .faster:hover .son{
+    display: block;
+}
+.flip{
+    width: 500px;
+    border: 1px solid black;
+    background-color: burlywood;
+}
+.panel{
+    width: 500px;
+    height: 200px;
+    background-color: cornflowerblue;
+}

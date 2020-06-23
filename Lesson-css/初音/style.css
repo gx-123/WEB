@@ -1,0 +1,149 @@
+h1{
+    text-align: center;
+    color: aqua;
+    animation: h  linear  1 3s ;
+}
+html{
+    background-image: url(../../img/绝美初音.png);
+    background-size: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-attachment: fixed;
+}
+p{
+    padding-left: 25px;
+    padding-top: 10px;
+    background-color: rgba(143, 245, 245, 0.26);
+    margin-right: 47%;
+    border-left: tomato 8px solid;
+    border-top: yellow 2px dotted;
+    border-right: yellow 2px dotted;
+    border-bottom: yellow 2px dotted;
+}
+@keyframes myfirst {
+    0%{color:  white;}
+    12.5%{color: black;}
+    25%{color: black;}
+    37.5%{color: black;}
+    50%{color:  black;}
+    62.5%{color: black;}
+    75%{color: black;}
+    82.5%{color: black;}
+    100%{color: white;}
+}
+@keyframes mytwo {
+    0%{color:  white;}
+    12.5%{color: white;}
+    25%{color: black;}
+    37.5%{color: black;}
+    50%{color:  black;}
+    62.5%{color: black;}
+    75%{color: black;}
+    82.5%{color: white;}
+    100%{color: white;}
+
+}
+@keyframes mythree {
+    0%{color:  white;}
+    12.5%{color: white;}
+    25%{color: white;}
+    37.5%{color: black;}
+    50%{color:  black;}
+    62.5%{color: black;}
+    75%{color: white;}
+    82.5%{color: white;}
+    100%{color: white;}
+
+}
+@keyframes myfour{
+    0%{color:  white;}
+    12.5%{color: white;}
+    25%{color: white;}
+    37.5%{color: white;}
+    50%{color:  black;}
+    62.5%{color: white;}
+    75%{color: white;}
+    82.5%{color: white;}
+    100%{color: white;}
+}
+@keyframes myfive{
+    0%{color:  white;}
+    12.5%{color: white;}
+    25%{color: white;}
+    37.5%{color: white;}
+    50%{color:  white;}
+    62.5%{color: black;}
+    75%{color: black;}
+    82.5%{color: black;}
+    100%{color: black;}
+}
+@keyframes mysix{
+    0%{color:  white;}
+    12.5%{color: white;}
+    25%{color: white;}
+    37.5%{color: white;}
+    50%{color:  white;}
+    62.5%{color: white;}
+    75%{color: black;}
+    82.5%{color: black;}
+    100%{color: black;}
+}
+@keyframes myseven{
+    0%{color:  white;}
+    12.5%{color: white;}
+    25%{color: white;}
+    37.5%{color: white;}
+    50%{color:  white;}
+    62.5%{color: white;}
+    75%{color: white;}
+    82.5%{color: black;}
+    100%{color: black;}
+}
+@keyframes myeight{
+    0%{color:  white;}
+    12.5%{color: white;}
+    25%{color: white;}
+    37.5%{color: white;}
+    50%{color:  white;}
+    62.5%{color: white;}
+    75%{color: white;}
+    82.5%{color: white;}
+    100%{color: black;}
+}
+@keyframes h{
+    from{opacity: 0};
+    to{opacity: 100};
+
+}
+p:nth-of-type(1){
+
+    animation: myfirst 8s infinite;
+}
+p:nth-of-type(2){
+
+    animation: mytwo 8s infinite;
+}
+p:nth-of-type(3){
+
+    animation: mythree 8s infinite;
+}
+p:nth-of-type(4){
+
+    animation: myfour 8s infinite;
+}
+p:nth-of-type(5){
+
+    animation: myfive 8s infinite;
+}
+p:nth-of-type(6){
+
+    animation: mysix 8s infinite;
+}
+p:nth-of-type(7){
+
+    animation: myseven 8s infinite;
+}
+p:nth-of-type(8){
+
+    animation: myeight 8s infinite;
+}
